@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frontend-test</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="page-content">
+        <div class="wrapper">
+            <!-- Меню  -->
+            <nav class="menu">
+                <div class="menu__header">
+                    <img src="img/logotype.svg" alt="">
+                </div>
+                <div class="menu__list">
+                    <a href="" class="menu__item">Первая ссылка</a>
+                    <a href="" class="menu__item menu__item_current">Вторая ссылка</a>
+                    <a href="" class="menu__item">Третья ссылка</a>
+                    <a href="" class="menu__item menu__item_footer">Личный кабинет</a>
+                    <a href="" class="menu__item menu__item_footer">Выйти</a>
+                </div>
+            </nav>
+            <!-- Меню -->
+
+            <!-- Блок авторизации -->
+            <div class="authorization">
+                <!-- Шапка блока авторизации -->
+                <div class="authorization__header">
+                    <img src="img/menu.svg" alt="" class="menu-btn">
+                    <h1 class="authorization__header_title">Заголовок страницы</h1>
+                    <p class="authorization__header_text">В отличие от пылевого и ионного хвостов, направление поступает в лимногляциальный часовой угол</p>
+                </div>
+                <!-- Шапка блока авторизации -->
+                <div class="authorization__container">
+                    <!-- Информация -->
+                    <div class="authorization__container_info">
+                        <h6 class="info_title">Информация по оплате:</h6>
+                        <div class="info_box">
+                            <p class="number">Номер счета:</p>
+                            <p class="sum">Сумма платежа:</p>
+                        </div>
+                    </div>
+                    <!-- Информация -->
+                    <!-- Контейнер карточек -->
+                    <div class="authorization__container_card">
+                        <h5 class="card_title">Данные банковской карты</h5>
+                        <div class="card_under">
+                            <!-- Нижняя карточка -->
+                            <img src="img/under-card.png" alt="" class="card_under_image">
+                            <div class="card_under_box">
+                                <p class="card_under_box_cvv">Код CVV2 / CVC2</p>
+                                <input type="text" maxlength="3" minlength="3" required id="cvv" class="card_under_box_input" placeholder="XXX">
+                                <img src="img/help.png" alt="" class="card_under_box_help">
+                            </div>
+                            <!-- Нижняя карточка -->
+                            <!-- Верхняя карточка -->
+                            <div class="up_card">
+                                <img src="img/up-card.png" class="up_card_image" alt="">
+                                <div class="up_card_box">
+                                    <p class="up_card_box_text">Номер карты</p>
+                                    <div class="input-box">
+                                        <input type="text" id="num1" required maxlength="4" minlength="4" class="input-box_item" placeholder="XXXX">
+                                        <input type="text" id="num2" required maxlength="4" minlength="4" class="input-box_item" placeholder="XXXX">
+                                        <input type="text" id="num3" required maxlength="4" minlength="4" class="input-box_item" placeholder="XXXX">
+                                        <input type="text" id="num4" required maxlength="4" minlength="4" class="input-box_item" placeholder="XXXX">
+                                    </div>
+                                    <p class="up_card_box_text">Срок действия</p>
+                                    <div class="select-box">
+                                        <select class="select-box_item">
+                                            <option value="01">01</option>
+                                            <option value="02">02</option>
+                                            <option value="03">03</option>
+                                            <option value="04">04</option>
+                                            <option value="05">05</option>
+                                            <option value="06">06</option>
+                                            <option value="07">07</option>
+                                            <option value="08">08</option>
+                                            <option value="09">09</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                        </select>
+                                        <select class="select-box_item">
+                                            <option value="01">2018</option>
+                                            <option value="02">2019</option>
+                                            <option value="03">2020</option>
+                                            <option value="04">2021</option>
+                                        </select>
+                                        <div class="card_under_box card_under_box_media">
+                                            <p class="card_under_box_cvv">Код CVV2 / CVC2</p>
+                                            <input type="text" maxlength="3" minlength="3" required id="cvv2" class="card_under_box_input" placeholder="XXX">
+                                            <img src="img/help.png" alt="" class="card_under_box_help">
+                                        </div>
+                                    </div>
+                                    <div class="owner-box">
+                                        <input type="text" id="owner" minlength="4" required class="owner-box_item" placeholder="Держатель карты">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Верхняя карточка -->
+                        </div>
+                        <a class="card_button">Оплатить</a>
+                    </div>
+                    <!-- Контейнер карточек -->
+                    <!-- Футер авторизации -->
+                    <div class="authorization__container_footer">
+                        <p class="footer_item">Исходя из астатической системы координат Булгакова, соединение стабильно. Краевая часть артезианского бассейна, которая в настоящее время находится ниже уровня моря, ослабляет систематический уход. Лисичка традиционно трансформирует прецессионный годовой параллакс.</p>
+                        <p class="footer_item">Выклинивание абсолютно аккумулирует твердый pадиотелескоп Максвелла.</p>
+                        <p class="footer_item">Алмаз слагает горст. Делювий длительно колеблет лазерный подвижный объект.</p>
+                        <p class="footer_item">Устойчивость, например, параллельна. Аргумент перигелия определяет боксит. Проекция вертикально дает уходящий диабаз. Если пренебречь малыми величинами, то видно, что угол крена покрывает вибрирующий волчок, что обусловлено не только первичными неровностями эрозионно-тектонического рельефа поверхности кристаллических пород, но и проявлениями долее поздней блоковой тектоники. Засветка неба заставляет иначе взглянуть на то, что такое волчок.</p>
+                    </div>
+                    <!-- Футер авторизации -->
+                </div>
+            </div>
+            <!-- Блок авторизации -->
+        </div>
+    </div>
+
+    <div class="menu-container">
+        <a href="#" class="menu-container_link">Первая ссылка</a>
+        <a href="#" class="menu-container_link menu-container_link_current">Вторая ссылка</a>
+        <a href="#" class="menu-container_link">Третья ссылка</a>
+        <a href="#" class="menu-container_link">Личный кабинет</a>
+        <a href="#" class="menu-container_link">Выйти</a>
+        <img src="img/cancel.svg" alt="X" class="menu_close">
+    </div>
+
+    <div class="error-holder">
+        <span>Error</span>
+    </div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/error.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>
